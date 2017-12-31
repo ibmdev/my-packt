@@ -5,11 +5,12 @@
 	<title>SOP Demo</title>
 </head>
 <body>
-<iframe src="http://www.google.com" name="sop"></iframe>
+<iframe src="http://localhost:8081/google-web" name="sop"></iframe>
 <script>
 	document.getElementsByName('sop')[0].onload = function() {
 		try {
-			console(window.frames[0].hostname);
+            var frames = window.frames;
+            alert('test : '+frames[0].location.hostname);
 		} catch(e) {
 			console.log(e);
 		}}

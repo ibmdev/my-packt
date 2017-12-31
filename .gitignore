@@ -1,2 +1,4 @@
-mastering-modern-web-penetration-testing/.idea/
 *.iml
+mastering-modern-web-penetration-testing/.idea/
+mastering-modern-web-penetration-testing/google-webapp/google-ear/target/
+mastering-modern-web-penetration-testing/google-webapp/google-service/target/

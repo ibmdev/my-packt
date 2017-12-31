@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.google.web</groupId>
+    <artifactId>google</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+	
+  <modules>
+     <module>google-service</module>
+     <module>google-web</module>
+     <module>google-ear</module>
+		 
+   </modules>
+   
+    <properties>
+        
+        <!-- Modification des properties, à supprimer -->
+	<metrics.version>3.0.2</metrics.version>
+	<spring.version>3.2.18.RELEASE</spring.version>
+	<spring-metrics.version>3.0.2</spring-metrics.version>
+
+        
+          <!-- JDK -->
+          <jdk7.version>1.7</jdk7.version>
+          
+          <!-- BUILD PLUGIN -->
+          <version.compiler.plugin>2.3.1</version.compiler.plugin>
+          <version.ear.plugin>2.6</version.ear.plugin>
+          <version.war.plugin>2.1.1</version.war.plugin>
+          <maven.jar.plugin.version>2.4</maven.jar.plugin.version>
+		  <exec.maven.version>1.3.1</exec.maven.version>
+		  <maven.release.plugin.version>2.0-beta-9</maven.release.plugin.version>
+		  <maven.clean.plugin.version>2.4.1</maven.clean.plugin.version>
+          <maven.ant.plugin.version>1.8</maven.ant.plugin.version>
+         
+		  <!-- SPRING -->
+		  <spring.ldap.version>3.2.4.RELEASE</spring.ldap.version>
+		 
+		
+		   <!-- COMMONS -->
+			<commons-jxpath.version>1.2</commons-jxpath.version>
+			<commons.collection.version>3.2.1</commons.collection.version>
+			<commons-httpclient.version>3.1</commons-httpclient.version>
+			<commons-fileupload.version>1.2.2</commons-fileupload.version>
+			<httpclient.version>4.4</httpclient.version>
+		
+		   <!-- JACKSON -->
+		   <jackson.version>1.9.13</jackson.version>
+         
+		   <!-- JAXB -->		 
+		   <jaxb.plugin.version>0.7.2</jaxb.plugin.version>
+		   
+		   <!-- EH CACHE -->
+		   <ehcache.version>1.6.2</ehcache.version>
+		   
+		   <!-- IBM MQ -->
+		   <ibm-mq.version>7.0.1.0</ibm-mq.version>
+        
+           <!-- LOGGING -->
+           <slf4j.version>1.7.7</slf4j.version>
+		   <logback.version>1.1.3</logback.version>
+          
+           <!-- MONITORING -->
+		   <mire-core.version>1.4.0</mire-core.version>
+        
+		  <!-- TESTS -->
+          <junit.version>4.12</junit.version>
+		  <surefire.version>2.16</surefire.version>
+          <mockito.version>1.10.19</mockito.version>
+
+            <!-- Reporting -->
+        <findbugs.version>3.0.4</findbugs.version>
+        
+        <!-- Cargo -->
+        <cargo.version>1.6.5</cargo.version>
+
+        <!-- Jenkins -->
+        <server.jboss.url>F:/developpement/git/Jenkins/jboss-eap-6.1</server.jboss.url>
+        <application.url>http://localhost:8080/artifact-web/index.jsp</application.url>
+        <cargo.jboss.container.type>jboss72x</cargo.jboss.container.type>
+        <cargo.servlet.port>8080</cargo.servlet.port>
+
+    </properties>
+
+    <dependencies>
+    </dependencies>
+     <build>
+    </build>
+
+</project>
