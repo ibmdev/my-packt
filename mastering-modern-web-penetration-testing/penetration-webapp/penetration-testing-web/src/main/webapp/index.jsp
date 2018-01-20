@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page import="javax.naming.*" %>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -15,5 +15,18 @@
 			console.log(e);
 		}}
 </script>
+
+<%
+    InitialContext ctx = new InitialContext();
+    try {
+        Object lookup = ctx.lookup("java:comp/env/configurationPath");
+        System.out.println(lookup.toString());
+    }
+    catch(Exception e) {
+        e.printStackTrace();
+
+    }
+%>
+
 </body>
 </html>

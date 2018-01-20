@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/penetration-testing-web">
+
+    <Environment name="configurationPath" value="/env.properties" type="java.lang.String"/>
 	
 	
 </Context>
